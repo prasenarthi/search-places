@@ -15,7 +15,7 @@ const Table = ({ placesList, loading, startIndex }) => {
         </thead>
         <tbody>
           {loading && (
-            <div>
+            <div className="loader">
               <p>loading...</p>
             </div>
           )}
